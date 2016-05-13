@@ -14,7 +14,7 @@ myApp.directive("hello",function(){
 //数据绑定
 var myNum = angular.module("myNum",[]);
 myNum.controller("myCtrl",["$scope",function($scope){
-	$scope.ctrlFlavor = "急啊的罚款塑料袋放进；阿里";
+	$scope.ctrlFlavor = "good day";
 }]);
 
 //@ 单项（字符串）    = 双向 （父级属性）  & 函数  稍后调用
